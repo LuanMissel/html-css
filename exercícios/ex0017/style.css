@@ -1,0 +1,36 @@
+* {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #14a7ac, #10454F);
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align: center;
+    color: #0a4f52;
+    font-size: 2em;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 31.2em;
+    height: auto;
+    padding: 1.6em;
+}
+
+.ht {
+    text-align: left;
+    align-items: center;
+}
+#sec {
+    align-items: last baseline;
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: 'ragnarok';
+    src: url(../ex0015/font/Ragfile.otf) format('opentype'), url(../ex0015/font/Ragfile.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+    /* 
+        tipos de format()
+        -opentype (otf)
+        -truetype (ttf)
+        -embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        -svg
+    */
+* {
+    font-size: 16px;
+}
+h1 {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  line-height: 1.5em;
+  text-indent: 0.4em;
+  text-align: justify;
+}
+
+html, body {
+    background-image: linear-gradient(to bottom, #183B59, #0B2559);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+main {
+    background-color: azure;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    border-radius: 0.2em;
+    box-shadow: 1em 1em 2em #0B2559; 
+    padding: 1.5em;
+    
+}
+
+.site-2 h1, h2 {
+    font-family: 'ragnarok', sans-serif;
+    font-size: 2em;
+    text-align: left;
+}

@@ -1,0 +1,55 @@
+*{
+    font: italic 400 1em Arial, Helvetica, sans-serif;
+}
+    /* 
+    medidas absolutas:
+    cm, mm, in <- polegada, px <- pixel , pt <- ponto, pc <- paica
+    medidas relativas:
+    em, ex <- altura x, rem <- root, vw <- viewport, vh <- altura da viewport
+        
+    geralmente será usado o em e o px.
+    16 px = 1 em
+    isso é para o font size.
+    */
+
+    
+     /* Para adicionar o shorthand é necessário colocar o atributo
+    font: font-style -> font-weigth -> font-size -> font-family 
+    exatamente nessa ordem.
+    font-style: (italic, emphasis);
+    font-weigth: pode ir de (100-900) (ligther, normal, bold, bolder);
+    font-size: 1em;
+    font-family: arial, helvética, sans serif;
+
+     */
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #01415B;
+
+}
+
+ html, body {
+    background-image: linear-gradient(to bottom, #019587, #01415B);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+    
+}
+
+main {
+    background-color: white;
+    background-attachment: fixed;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #015e54;  
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+

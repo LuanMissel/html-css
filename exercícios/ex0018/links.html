@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* Seletores Personalizados.
+        # = id
+        . = class
+        : = pseudo-class 
+        :: = pseudo-element
+        > = children
+        */
+    
+        * {
+            font-size: 16px;
+        }
+        
+        body {
+            font: normal bolder 1.4em arial, helvetica, 'sans-serif';           
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        a:visited {
+            color:  black;
+        }
+        /* */
+
+        a:hover {
+           text-decoration: underline;
+           color: yellow;
+        }
+        /* Só terá efeito quando você passar o mouse em cima do conteúdo.*/
+
+        a::before {
+            content: "➤";
+        }
+        /* Mostra esse sinal antes do texto em html. Porém, o código html não é afetado, isso deixa o estilo da página mais bonito.*/
+        a:active {
+            color: rgb(7, 170, 116);
+        }
+
+        /* Quando você clicar em cima dele, a cor vai ser esse rgb (7,170,116); */
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/luanmissel" target="_blank">
+                Repositório Git Hub
+            </a>
+        </li>
+        <li>
+            <a href="https://linkedin.com" target="_blank">
+                LinkedIn
+            </a>
+        </li>
+        <li>
+            <a href="https://youtube.com/cursoemvideo" target="_blank">
+                Youtube
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
